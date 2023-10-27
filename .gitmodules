@@ -1,0 +1,3 @@
+[submodule "themes/blog_theme"]
+	path = themes/blog_theme
+	url = https://github.com/lajunta/blog_theme

@@ -1,0 +1,26 @@
+baseURL: https://lajunta.github.io/blog/
+languageCode: zh-cn
+title: 文章中心
+theme: "blog_theme"
+language: zh-cn
+publishDir: public
+
+params:
+  description: "文章中心"
+
+menu:
+  main:
+  - identifier: categories
+    name: 目录
+    url: /categories/
+    weight: -110
+  - identifier: tags
+    name: 标签
+    url: /tags/
+    weight: -100
+
+markup:
+  highlight:
+    noClasses: true
+    style: dracula
+    lineNos: true
